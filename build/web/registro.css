@@ -1,0 +1,37 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 7 nov. 2023, 06:52:39
+    Author     : mario_5ymtv0r
+*/
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(Resources/Img/limpieza4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    height: auto;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.form-register{
+    width: 400px;
+    background:snow;
+    border-color: snow;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family:'calibri';
+    color:white;
+    box-shadow:  7px 13px 37px #000;
+}

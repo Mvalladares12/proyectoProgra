@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+    <h:head>
+        <title>Facelet Title</title>
+        <link rel="stylesheet"  href="index.css"/>
+        <!--h:outputStylesheet name="estilo.css" /-->
+    </h:head>
+    <h:body>
+        <p:growl id="message"/>
+        <h:form id="estylo1">
+            <p:fieldset class="login-box">
+                <!--p:panelGrid columns="1"-->
+                    <h1>Bienvenido a Servilimpieza</h1>
+                    <p:outputLabel class="output" for="txtUser" value="Usuario" />
+                    <p:inputText class="input" id="txtUser" value="#{usuarioBean.usuario.usuario}" placeholder="Ingrese su usuario"/>
+                    <p:outputLabel class="output" for="txtContra" value="Contraseña" />
+                    <p:inputText class="input" type="password" id="txtContra" value="#{usuarioBean.usuario.contrasena}" placeholder="Ingrese su contraseña"/>
+                    <p:column/>
+                    <p:commandButton update=":message" type="submit" class="button" value="Ingresar" action="#{usuarioBean.iniciarSesion()}"/>
+                    <br/>
+                    <!--p:link value="¿No tienes cuenta?" outcome="registro"></p:link-->
+                    <p:button class="button" value="Registrate" outcome="registro"></p:button>
+                <!--/p:panelGrid-->
+            </p:fieldset>
+        </h:form>
+    </h:body>
+</html>
+

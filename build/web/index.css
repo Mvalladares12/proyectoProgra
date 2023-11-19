@@ -1,0 +1,73 @@
+/* 
+    Created on : 18 oct. 2023, 16:54:02
+    Author     : mario_5ymtv0r
+*/
+#estylo1{
+    margin: 0 auto;
+    width: 30%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url(Resources/Img/limpieza2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  height: auto;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.login-box {
+  width: 320px;
+  height: 380px;
+  background:transparent;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box;
+  padding: 40px 30px;
+  border-radius: 30px;
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+.login-box .output {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+
+.input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.login-box .button{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+

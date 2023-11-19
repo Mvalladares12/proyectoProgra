@@ -1,0 +1,48 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 9 nov. 2023, 16:20:30
+    Author     : mario_5ymtv0r
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 500px;
+    background: url(Resources/Img/limpieza2.jpg);
+    background: rgb(85,253,255);
+    background: linear-gradient(90deg, rgba(93, 200, 202, 0.473) 8%, rgba(142, 238, 118, 0.44) 79%), url(../Img/limpieza4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header .texto{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ola{
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+.card{
+    margin-top: 300px;
+}
+
+fieldset{
+    border: 0px;
+}
